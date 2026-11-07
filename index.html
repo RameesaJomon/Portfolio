@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap Icons HTML CDN -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <!--Header Section-->
+        <header>
+            <input type="checkbox" name="" id="checkbox">
+            <a href="#hero" class="logo"><span>J</span>omon.</a>
+            
+            <nav>
+                <label for="checkbox" class="close-bar"><i class="bi bi-x"></i></label>
+                <ul>
+                    <li><a href="#hero" class="home-menu">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li class="letstalk"><a href="mailto:jomonsp42@gmail.com">Let's Talk</a></li>
+                </ul>
+            </nav>
+            <a href="mailto:jomonsp42@gmail.com" class="letstalk-btn">Let's Talk</a>
+            <label for="checkbox" class="menu-bar"><i class="bi bi-list"></i></label>
+        </header>
+                
+        <!--Hero Section-->
+        <main id="hero">
+            <img src="FILES/profile-picture.png" alt="" class="portfolio-img">
+            <div class="intro">
+                <h2>Hi, I'm <span>Jomon</span></h2>
+                <h3>Web developer</h3>
+                <p>Passionate Junior Web Developer with a strong foundation in the MERN stack, eager to build impactful digital solutions and grow in a fast-paced engineering team.</p>
+                <a href="FILES/CV.pdf" target="_blank" class="hire-me">Hire me</a>
+                <a href="FILES/project index.html" class="see-projects">See projects</a>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rameesa-jomon-sp-467b4b40a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="icon"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/RameesaJomon" target="_blank" class="icon"><i class="bi bi-github"></i></a>
+                    <a href="https://www.instagram.com/injured.__wind?rpxt=c2NjNnVoNHRjbTZn" target="_blank" class="icon"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </main>
+        <hr>
+
+        <!--About Section-->
+        <section id="about">
+            <h2 class="about-h2">About me</h2>
+            <div class="about">
+                <div class="left-about">
+                    <p>I am an aspiring Full-Stack Web Developer with a deep passion for writing clean, scalable code and building intuitive user interfaces. Armed with a solid understanding of the MERN stack (MongoDB, Express.js, React.js, Node.js), I enjoy taking projects from raw wireframes to fully deployed, production-ready applications. When I'm not coding, I'm continuously exploring modern web technologies, optimizing application performance, and solving algorithmic problems.</p>
+                    <div class="about-conatiner">
+                        <div class="about-info">
+                            <h3>0+</h3>
+                            <h5>Years experience</h5>
+                        </div>
+                        <div class="about-info">
+                            <h3>0+</h3>
+                            <h5>Completed Projects</h5>
+                        </div>
+                        <div class="about-info">
+                            <h3>0+</h3>
+                            <h5>Companies worked</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <img src="FILES/profile-picture.png" alt="">
+                    <a href="FILES/CV.pdf" download="CV" class="cv-btn" id="cv-btn">Download CV <i class="bi bi-download"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--Education Section-->
+        <section id="education">
+            <h2 class="education-h2">Education</h2>
+            <div class="edu-container">
+                <div class="edu-box">
+                    <h3>SSLC</h3>
+                    <h4>2020</h4>
+                </div>
+                <div class="edu-box">
+                    <h3>PLUS TWO</h3>
+                    <h4>2022</h4>
+                </div>
+                <div class="edu-box">
+                    <h3>Prepress</h3>
+                    <h4>2024</h4>
+                </div>
+            </div>
+            <hr class="edu-hr">
+        </section>
+        <!--Skill Section-->
+        <section id="skills">
+            <h2 class="skills-h2">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-box">
+                    <div class="lang">
+                        <h5>HTML</h5>
+                        <h6>10%</h6>
+                    </div>
+                    <div class="progress-container">
+                    <div class="progress">
+                        <div class="status"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="lang">
+                        <h5>CSS</h5>
+                        <h6>10%</h6>
+                    </div>
+                    <div class="progress-container">
+                    <div class="progress">
+                        <div class="status"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="lang">
+                        <h5>Javascript</h5>
+                        <h6>10%</h6>
+                    </div>
+                    <div class="progress-container">
+                    <div class="progress">
+                        <div class="status"></div>
+                    </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <hr class="edu-hr">
+        <!--Contact Section-->
+        <h2 class="Contact-h2">Contact</h2>
+        <section id="Contact">
+            <div class="Contact-left">
+                <h5>Call me</h5>
+                <h4><i class="bi bi-telephone-fill"></i> +91 7306752671</h4>
+                <h5>E-mail</h5>
+                <h4><i class="bi bi-envelope"></i> jomonsp42@gmail.com</h4>
+                <h5>Location</h5>
+                <h4><i class="bi bi-geo-alt-fill"></i> Kollam,Kerala</h4>
+            </div>
+            <div class="Contact-right">
+                <input type="text" name="" id="" placeholder="Name">
+                <input type="text" name="" id="" placeholder="Email"><br>
+                <input type="text" name="" id="" placeholder="Subject">
+                <input type="text" name="" id="" placeholder="Discription"><br>
+                <a href="">Send message <i class="bi bi-send"></i></a>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="footer-container">
+                <div class="footer-name">
+                    <h4>JOMON</h4>
+                    <h5>Web developer</h5>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="social-icons-footer">
+                    <a href="https://www.linkedin.com/in/rameesa-jomon-sp-467b4b40a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="footer-icon"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/RameesaJomon" target="_blank" class="footer-icon"><i class="bi bi-github"></i></a>
+                    <a href="https://www.instagram.com/injured.__wind?rpxt=c2NjNnVoNHRjbTZn" target="_blank" class="footer-icon"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <h5 class="footer-downtext">Jomon | All rights reserved</h5>
+        </footer>
+    </body>
+</html>
